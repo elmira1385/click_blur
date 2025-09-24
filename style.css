@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.chang:focus{
+background: linear-gradient(90deg,rgba(14, 165, 234, 1) 0%, rgba(148, 255, 218, 0.9) 50%, rgba(14, 165, 234, 1) 100%);
+cursor: pointer;
+}
+
+.show{
+    display: none;
+}
+.back{
+     background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click-blur</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="h-screen bg-[#0f172a] flex justify-center items-start relative pt-10">
+    <main class="h-full flex justify-center items-start">
+        <div>
+            <button  id="btnMain" class="chang text-xl text-white font-medium border-2 border-[#0ea5ea] rounded-[50px] py-4 px-9 bg-transparent">Show modal</button>
+        </div>
+        <div id="modal" class="show absolute z-10 top-64">
+            <div class="relative  w-[600px] h-[200px] bg-[#131c31] p-3 border-2 border-[#222f43] rounded-[20px]">
+            <button id="hidden" class="absolute right-5 text-5xl text-[#b9e0f2] hover:text-[#0ea5ea] hover:cursor-pointer">×</button>
+            <p class="text-2xl top-14 left-14 absolute font-medium text-[#b9e0f2]">Modal title</p>
+            <p class="text-[18px] top-28 left-14 absolute text-[#b9e0f2]">Woo-hoo, you're reading this text in a modal!</p>
+            </div>
+        </div>
+        <div id="over" class="show back absolute top-0 left-0 z-5 w-[100%] h-[100%]">
+        </div>
+        </main>
+        <script src="script.js"></script>
+</body>
+</html>
