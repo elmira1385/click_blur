@@ -11,3 +11,12 @@ hiddenEl.addEventListener("click",()=>{
     modalEl.classList.add("show")
     overEl.classList.add("show")
 })
+overEl.addEventListener("click",()=>{
+    modalEl.classList.add("show")
+    overEl.classList.add("show")
+})
+document.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){
+    modalEl.classList.add("show")
+    overEl.classList.add("show")
+}})
